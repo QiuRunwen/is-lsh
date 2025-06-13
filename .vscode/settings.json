@@ -1,0 +1,19 @@
+{
+    "python.analysis.extraPaths": ["./src", "./src/data", "./src/ismethod"],
+    // "pylint.args": [
+    //     "--init-hook='import sys; sys.path.extend([\"./src\", \"./src/data\", \"./src/data/ismethod\"])'"
+    // ],
+    
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./tests",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true,
+
+    // "editor.wordWrap": "on" // //超过屏幕视图换行
+
+}

@@ -1,0 +1,28 @@
+/exp_conf/
+/data/
+
+# output
+/output
+
+# unittest
+.coverage
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs and editors
+.vscode/
+
+# pikcle file
+*.pkl
+
+# svg
+*.svg
+
+/literature
+
